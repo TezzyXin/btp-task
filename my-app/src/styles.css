@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar_top {
+    width: 100%;
+    display: flex;
+    padding : 15px 60px 15px 60px;
+    background:linear-gradient(120deg, #DAED49 50%, #00BDD4 50%)
+}
+
+.navbar_bottom {
+    background-color: #464646;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    padding : 15px 0 15px 0;
+    text-align: center;
+    width: 100%;
+  }
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.main_text {
+    width: 800px;
+    height: 230px;
+    padding : 100px 50px 100px 100px;
+}
+
+.left_side {
+    display: block;
+}
+
+.text1 {
+    font-size: 3vw;
+}
+
+.text2 {
+    color: #00BDD4;
+    font-size: 4vw;
+}
+
+body, html {
+    overflow-x:hidden;
+    }
+
+span { 
+    display: block; 
+}
+
+.image {
+    width: 30vw;
+    height: auto;
+    left: 0px;
+    right: 0px;
+    padding: 130px 0 0 100px;
+    display: block;
+    position: relative;
+}
+
+html { 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+
+/* <h2 class=“h-custom-headline h2”>Sample <span style=“color: #fff; font-family: ‘Indie Flower’, cursive !important;”>Text</span></h2> */
